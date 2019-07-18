@@ -9,15 +9,15 @@ import java.util.List;
 import static org.mockito.Mockito.*;
 import static org.junit.Assert.assertEquals;
 
-public class PortfolioTester {
+public class TestPortfolio {
 
     public Portfolio portfolio;
     public StockService stockService;
-    PortfolioTester tester;
+    TestPortfolio tester;
 
     @Before
     public void setUp(){
-        this.tester = new PortfolioTester();
+        this.tester = new TestPortfolio();
         // System.out.println(tester.testMarketValue()?"pass":"fail");
         //Create a portfolio object which is to be tested
         portfolio = new Portfolio();
