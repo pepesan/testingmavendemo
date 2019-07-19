@@ -1,6 +1,8 @@
-##Proyecto de ejemplo de pruebas
+# Proyecto de ejemplo de pruebas
 
 ## ejecución de pruebas
 mvn test
 ## ejecución de informe de pruebas
 mvn clean install test surefire-report:report
+## Ejecución de análisis estático
+mvn sonar:sonar
