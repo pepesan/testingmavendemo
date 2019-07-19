@@ -1,7 +1,10 @@
 package com.cursosdedesarrollo;
 
+import lombok.Data;
+
+@Data
 public class Calculadora {
-    public Integer dato;
+    private Integer dato;
 
     Calculadora(){
         this.dato=2;
