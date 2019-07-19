@@ -8,6 +8,7 @@ import org.mockito.MockitoAnnotations;
 import java.util.LinkedList;
 import java.util.List;
 
+import static org.junit.Assert.assertEquals;
 import static org.mockito.Mockito.*;
 
 public class TestListado {
@@ -61,5 +62,6 @@ public class TestListado {
         System.out.println(spy.get(0));
         //size() method was stubbed - 100 is printed
         System.out.println(spy.size());
+        assertEquals(100, spy.size(), 0.0);
     }
 }
