@@ -1,8 +1,11 @@
 package com.cursosdedesarrollo;
 
-import lombok.Data;
 
-@Data
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
 public class Calculadora {
     private Integer dato;
 
