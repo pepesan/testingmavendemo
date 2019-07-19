@@ -4,3 +4,5 @@
 mvn test
 ## ejecución de informe de pruebas
 mvn clean install test surefire-report:report
+## Ejecución de análisis estático
+mvn sonar:sonar
